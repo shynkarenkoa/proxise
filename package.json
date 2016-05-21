@@ -1,0 +1,32 @@
+{
+    "name": "proxise",
+    "version": "1.0.0",
+    "description": "Thenless native promises with few additions",
+    "keywords":
+    [
+        "future",
+        "promise",
+        "proxy",
+        "async",
+        "await"
+    ],
+    "license": "MIT",
+    "author": "Aleksey Shvayka <shvaikalesh@gmail.com>",
+    "main": "./lib/proxise",
+
+    "devDependencies":
+    {
+        "mocha": "^2.4.5",
+        "chai": "^3.5.0",
+        "sinon": "^1.17.4",
+        "sinon-chai": "^2.8.0",
+        "browserify": "^13.0.1",
+        "watchify": "^3.7.0",
+        "karma": "~0.13.22",
+        "karma-mocha": "~1.0.1",
+        "karma-browserify": "^5.0.5",
+        "karma-app-launcher": "shvaikalesh/karma-app-launcher"
+    },
+    "repository": "shvaikalesh/proxise",
+    "scripts": { "test": "karma start" }
+}
